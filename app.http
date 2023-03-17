@@ -1,0 +1,22 @@
+get http://localhost:3000/todos/?status=DONE
+
+###
+GET HTTP://localhost:3000/todos/6/
+
+###
+get http://localhost:3000/agenda/?date=20-2-32
+
+###
+post http://localhost:3000/todos/ 
+Content-Type: application/json
+
+{
+    "id":8,
+    "todo":"complete the assignment",
+    "priority": "HIGH",
+    "status": "IN PROGRESS",
+    "category": "WORK",
+    "dueDate": "2023-23"
+}
+
+###
